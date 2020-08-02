@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <form>
+    <fieldset>
+      <legend>Size:</legend>
+      <input 
+        type="radio" 
+        id="sizeChoice1"
+        name="size" 
+        value="S"
+      >
+      <label for="contactChoice1">S</label>
+  
+      <input 
+        type="radio" 
+        id="sizeChoice2"
+        name="size"
+        value="M"
+      >
+      <label for="contactChoice2">M</label>
+  
+      <input
+        type="radio"
+        id="sizeChoice3"
+        name="size"
+        value="L"
+      >
+      <label for="contactChoice3">L</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Color:</legend>
+      <input type="checkbox" id="colorChoice1" name="color" value="1">
+      <label for="colorChoice1">1</label>
+    
+      <input type="checkbox" id="colorChoice2" name="color" value="2">
+      <label for="colorChoice2">2</label>
+    
+      <input type="checkbox" id="colorChoice3" name="color" value="3">
+      <label for="colorChoice3">3</label>
+
+      <input type="checkbox" id="colorChoice4" name="color" value="4">
+      <label for="colorChoice4">4</label>
+    
+      <input type="checkbox" id="colorChoice5" name="color" value="5">
+      <label for="colorChoice5">5</label>
+    </fieldset>
+    
+    <fieldset>
+      <legend>Manufacturer:</legend>
+      <label for="manufacturer"></label>
+      <select name="manufacturer" id="manufacturer" multiple>
+        <option value="aaa">aaa</option>
+        <option value="b&c">b&c</option>
+        <option value="ddd">ddd</option>
+        <option value="eee">eee</option>
+      </select>
+    </fieldset>
+
+    <fieldset>
+      <legend>Sale:</legend>
+      <label for="sale"></label>
+      <input type="checkbox" id="sale" name="sale" value="1">
+    </fieldset>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="index.js"></script>
+</body>
+</html>
